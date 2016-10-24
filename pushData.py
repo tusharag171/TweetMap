@@ -41,7 +41,7 @@ def get_tweets(keyword):
 
 def twittmap():
     try:
-        for i in range(1,3): #while True
+        while True:
             get_tweets('java')
             get_tweets('love')
             get_tweets('worlds')
